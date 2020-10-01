@@ -20,6 +20,9 @@ class Calc():
        
     @staticmethod
     def div(x, y):
+        if y==0:
+            print("Cannot divide number by zero\n")
+            return 0
         return x / y
 
     # Define a function to get our integer inputs   
